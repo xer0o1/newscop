@@ -1,0 +1,4 @@
+newscop
+=======
+
+phonegap newscop
