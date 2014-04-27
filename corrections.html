@@ -8,7 +8,7 @@
 	'http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
 	
-	<meta name="description" content="Technology News Aggregator">
+	<meta name="description" content="Police News Aggregator">
 	<meta name="keywords" content="News,police,law,law enforcement,corrections,jail,k9,cop,new,daily,update,one">
 	<meta name="author" content="user" >
 	<meta charset="UTF-8">
@@ -59,7 +59,7 @@
 
 	$('#rssdata').ready(function()
 		{
-			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=0d26c77296390d5a5412a8ef844b3583&_render=json';
+			var pipe_url ='http://pipes.yahoo.com/pipes/pipe.run?_id=0d26c77296390d5a5412a8ef844b3583&_render=json';
 	$.getJSON(pipe_url,function(data)
 			{
 	$(data.value.items).each(function(index,item)
@@ -72,20 +72,5 @@
 			});
 	</script>
 		
-
-	
-
-	
-	<script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  	ga('create', 'UA-40528442-1', 'newsbeard.com');
- 	 ga('send', 'pageview');
-	</script>
-
-
- </body>
+	</body>
 </html>
