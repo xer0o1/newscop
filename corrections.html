@@ -7,9 +7,7 @@
 	<link href=
 	'http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
-	<title>&#187;Newsbeard World</title>
-
-	<!-- Meta tags. So inception. So wow.  -->
+	
 	<meta name="description" content="Technology News Aggregator">
 	<meta name="keywords" content="News,police,law,law enforcement,corrections,jail,k9,cop,new,daily,update,one">
 	<meta name="author" content="user" >
@@ -45,13 +43,12 @@
 
 	<div class="rss-title">
 		<a href="javascript:location.reload(true);" style=
-		"text-decoration:none" ><strong> &#187;Newsbeard</strong></a>
+		"text-decoration:none" ><strong> &#187;Corrections</strong></a>
 	</div>
 
 
 	<ul class="rss-items"></ul>
 	<ul class="rss-footer">
-	<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />
 	</ul>
 
 	
@@ -62,7 +59,7 @@
 
 	$('#rssdata').ready(function()
 		{
-			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=00fbe50bef285566d2a11ca0e5b0e681&_render=json&_callback=?';
+			var pipe_url = 'http://pipes.yahoo.com/pipes/pipe.run?_id=0d26c77296390d5a5412a8ef844b3583&_render=json';
 	$.getJSON(pipe_url,function(data)
 			{
 	$(data.value.items).each(function(index,item)
@@ -74,7 +71,7 @@
 				});
 			});
 	</script>
-		<!-- Orange footer bar for license or whatever -->
+		
 
 	
 
